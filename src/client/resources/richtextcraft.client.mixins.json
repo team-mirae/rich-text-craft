@@ -1,0 +1,18 @@
+{
+	"required": true,
+	"package": "me.sjun.richtextcraft.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"AbstractSignEditScreenMixin",
+		"EditBoxMixin",
+		"KeyboardHandlerMixin",
+		"MultiLineEditBoxMixin",
+		"MultilineTextFieldAccessor",
+		"TextFieldHelperAccessor",
+		"TextInputManagerAccessor",
+		"TextInputManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

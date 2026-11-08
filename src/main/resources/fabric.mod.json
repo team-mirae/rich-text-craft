@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "richtextcraft",
+	"version": "${version}",
+	"name": "RichTextCraft",
+	"description": "OS input methods in every Minecraft text field: marked text drawn inline at the caret, the candidate window under it, and keys left to the input method while it composes.",
+	"authors": [
+		"Mirae Research"
+	],
+	"license": "CC0-1.0",
+	"contact": {
+		"sources": "https://github.com/team-mirae/rich-text-craft",
+		"issues": "https://github.com/team-mirae/rich-text-craft/issues"
+	},
+	"environment": "client",
+	"mixins": [
+		{
+			"config": "richtextcraft.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"entrypoints": {
+		"client": [
+			"me.sjun.richtextcraft.client.RichTextCraftClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": ">=26.3 <26.4-",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

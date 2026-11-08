@@ -1,0 +1,15 @@
+{
+	"schemaVersion": 1,
+	"id": "richtextcraft-gametest",
+	"version": "0.1.0",
+	"name": "RichTextCraft in-game tests",
+	"environment": "client",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"me.sjun.richtextcraft.gametest.CompositionGameTest"
+		]
+	},
+	"depends": {
+		"richtextcraft": "*"
+	}
+}
